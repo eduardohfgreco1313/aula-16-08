@@ -24,7 +24,7 @@ try
 	}
 
 } 
-catch(PDOExce ption $e) 
+catch (PDOException $e) 
 {
 	echo "Falhou:".$e->getMessage();
 } 
